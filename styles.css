@@ -1,0 +1,379 @@
+/* ------------------------body ------------------------------------------- */
+body{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------Navbar ------------------------------- */
+.Navbar{
+   width: 100%;
+   height: 65px;
+   box-shadow: 2px 2px 6px 3px rgb(170, 169, 169);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   background-color: #fff;
+}
+.Navbar .logo{
+  margin-left: 34px;
+  color: #03af14;
+}
+.Navbar .login button{
+  border: 2px solid #1DC760;
+  padding: 6px 12px;
+  border-radius: 9px;
+  color: #1DC760;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #fff;
+  margin-right: 34px;
+  transition: all .3s ease;
+}
+.Navbar .login button:hover{
+  background-color: #1DC760;
+  color: #fff;
+  cursor: pointer;
+}
+.Navbar ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Navbar ul li{
+  list-style-type: none;
+}
+.Navbar ul li a{
+  text-decoration: none;
+  margin: 0 12px;
+  color: #1f1f1f;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+}
+.Navbar ul li a:hover{
+  color: #1DC760;
+}
+/* --------------------------Home-------------------------------------------- */
+.container-Home{
+  background-image: url(./240_F_439501334_HVygoTnSuPqvQjtwkz26SbYuRA3tnJzv.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HomeText{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+}
+.HomeText p{
+  color: #010012;
+  font-weight: 600;
+}
+.Form{
+  width: 100%;
+  height: 45px;
+}
+.Form #box{
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(1, 11, 33, 0.334);
+  border-radius: 35px;
+  background-color: #ffffff88;
+  overflow: hidden;
+}
+
+#box{
+  display: flex;
+  justify-content:space-between ;
+}
+
+ #box input{
+  background-color: #ffffff1a;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 3px 22px;
+    font-size: 20px;
+}  
+#box input::placeholder{
+  color: #2c2c2d;
+}
+
+.fa-magnifying-glass{
+  font-size: 28px;
+  color: #ffffff;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #04bc17;
+}
+.Icons{
+  margin-top: 20px;
+}
+.Icons button{
+  border-radius: 9px;
+  background-color: rgb(1, 3, 42);
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: all .5s linear;
+  margin: 0 6px;
+}
+.Icons button .iconsContact{
+  color: #04bc4e;
+  font-size: 28px;
+  transition: all .5s linear;
+}
+.Icons button:hover{
+  background-color: #04bc17;
+}
+.Icons button:hover .iconsContact{
+  color: #fff;
+}
+/* ---------------------------------------About---------------------------------------- */
+#About {
+    padding: 80px 0;
+    margin-bottom: 20px;
+    border: solid 3px;
+    border-radius: 15px;
+    border-color: rgb(220, 154, 253);
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+.col-1 {
+    flex-basis: 60%;
+    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-2{
+    flex-basis: 35%;
+}
+.col-2 img{
+  width: 50vh;
+  border-radius: 20px;
+  margin-left: 20px;
+  height: 50vh;
+  margin-top: 50px;
+}
+
+/* ---------------------------------Comment----------------------------------------- */
+#Comment-Form{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  /* margin:120px 36px 0px 36px; */
+  margin: 120px 42px;
+}
+#Comment-Form .commemt-info{
+  padding: 60px;
+}
+#Comment-Form Form{
+  padding: 44px;
+}
+#Comment-Form form{
+  background-color: aliceblue;
+}
+#Comment-Form form input{
+  width: 100%;
+  margin-top: 2px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid rgb(161, 159, 159);
+}
+#Comment-Form form label{
+  margin-top: 12px ;
+}
+#Comment-Form form textarea{
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid rgb(161, 159, 159);
+
+}
+#submit{
+  border: 2px solid #1DC760;
+  color: #1DC760;
+  background-color: #fff;
+  padding: 8px 16px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 7px;
+  margin-top: 12px;
+  cursor: pointer;
+transition: all .5s ease;
+}
+#submit:hover{
+  background-color: #1DC760;
+  color: #fff;
+}
+
+
+
+/* =============Gallery Page=================== */
+.container-Gallery{
+  margin-top: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#GALLERY{
+  margin-top: 70px;
+}
+#GALLERY .title{
+  text-align: center;
+  color: #1DC760;
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 38px;
+  background-color: rgb(245, 241, 241);
+}
+.gallery-item{
+  overflow: hidden;
+  height: 120px;
+}
+.gallery-item>img{
+  width: 100%;
+  height: auto;
+}
+.Gallery {
+  margin-top: 90px;
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Gallery img {
+  width: 220px;
+  height: auto;
+  margin: 10px;
+}
+
+/* =================Contact us======================= */
+.container-fluid{
+  overflow-y: hidden;
+  margin: 12px 0px -26px 0px;
+  padding-bottom: 12px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 42px;
+  
+}
+.container-fluid #info{
+  margin-bottom: 50px;
+  width: 35%;
+  padding-right: 45px;
+  background-color: #010012;
+  padding: 18px;
+  border-radius: 11px;
+}
+.container-fluid #info h3{
+  color: #04bc17;
+}
+.container-fluid  form{
+  border: 1px solid rgb(236, 232, 232);
+  padding: 18px;
+margin-bottom: 120px;
+  border-radius: 7px;
+  box-shadow: -2px 5px 10px 4px  rgb(220, 220, 223);
+  width: 55%;
+}
+
+
+.container-fluid form .form-group{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.container-fluid  form  label{
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.container-fluid  form .form-group input{
+border: 1px solid rgb(220, 218, 218);
+border-radius: 5px;
+padding: 8px 12px;
+margin-bottom: 18px;
+}
+.container-fluid  form .form-group .form-input{
+ display: flex;
+ flex-direction: row;
+}
+
+.textArea{
+  border: 1px solid rgb(220, 218, 218);
+border-radius: 5px;
+padding: 8px 12px;
+margin-bottom: 18px;
+}
+.container-fluid  form .btn{
+  background-image: linear-gradient(to top, rgb(3, 3, 71), rgb(68, 136, 247));
+  border: none;
+  width: 15%;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.IconsContact{
+  margin-top: 20px;
+}
+.IconsContact button{
+  border-radius: 9px;
+  background-color: rgb(232, 232, 239);
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: all .5s linear;
+  margin: 0 6px;
+}
+.IconsContact button .iconsContact{
+  color: #04bc4e;
+  font-size: 28px;
+  transition: all .5s linear;
+}
+.IconsContact button:hover{
+  background-color: #04bc17;
+}
+.IconsContact button:hover .iconsContact{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
